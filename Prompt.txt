@@ -1,0 +1,11 @@
+Structure the data from this medical report into a JSON.
+
+The general patient information needs to be high level keys.
+A key for diagnosis needs to have 3 parts: diagnosis, simptom list, hospitalization true/false and a text field that contains everything that wasn't included.
+
+A key for medication list.
+Only include medication, each medication needs to have name, administration type, dose and administration schedule.
+
+A key for Nursing task list: that each task has a title, details and status (todo, in progress, done).
+
+Patient tracking. Here we put as a table form the timestamp and throat pain score. 

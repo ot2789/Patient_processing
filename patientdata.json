@@ -1,0 +1,78 @@
+{
+  "Patient Information": {
+    "Patient Name": "John Doe",
+    "Patient ID": "45231",
+    "Date of Admission": "2025-07-10",
+    "Doctor": "Dr. Sarah Mitchell, MD",
+    "Department": "General Practice"
+  },
+  "Diagnosis": {
+    "Diagnosis": "Severe Bacterial Pharyngitis (Throat Infection)",
+    "Symptoms": [
+      "severe sore throat",
+      "high fever",
+      "swollen lymph nodes"
+    ],
+    "Hospitalization": true,
+    "Notes": "Patient presents with severe sore throat, high fever, and swollen lymph nodes. Hospitalization required for IV antibiotics and monitoring."
+  },
+  "Medication List": [
+    {
+      "Name": "Ceftriaxone",
+      "Administration Type": "IV",
+      "Dose": "1g",
+      "Administration Schedule": "once daily for 5 days"
+    },
+    {
+      "Name": "Ibuprofen",
+      "Administration Type": "oral",
+      "Dose": "400 mg",
+      "Administration Schedule": "every 6-8 hours as needed for pain/fever"
+    },
+    {
+      "Name": "IV fluids",
+      "Administration Type": "IV",
+      "Dose": "as needed",
+      "Administration Schedule": "as needed"
+    }
+  ],
+  "Nursing Task List": [
+    {
+      "Title": "Administer IV antibiotics",
+      "Details": "Administer IV antibiotics and monitor for allergic reactions",
+      "Status": "todo"
+    },
+    {
+      "Title": "Monitor throat pain score",
+      "Details": "Monitor throat pain score every morning",
+      "Status": "in progress"
+    },
+    {
+      "Title": "Encourage fluid intake and rest",
+      "Details": "Encourage patient to drink fluids and rest",
+      "Status": "in progress"
+    },
+    {
+      "Title": "Prepare patient for discharge",
+      "Details": "Prepare patient for discharge after recovery",
+      "Status": "todo"
+    }
+  ],
+  "Patient Tracking": [
+    {"Timestamp": "2025-07-10 09:15", "Throat Pain Score": 8},
+    {"Timestamp": "2025-07-11 09:00", "Throat Pain Score": 9},
+    {"Timestamp": "2025-07-12 09:10", "Throat Pain Score": 9},
+    {"Timestamp": "2025-07-13 09:05", "Throat Pain Score": 8},
+    {"Timestamp": "2025-07-14 09:10", "Throat Pain Score": 7},
+    {"Timestamp": "2025-07-15 09:00", "Throat Pain Score": 8},
+    {"Timestamp": "2025-07-16 09:05", "Throat Pain Score": 6},
+    {"Timestamp": "2025-07-17 08:05", "Throat Pain Score": 4},
+    {"Timestamp": "2025-07-18 08:15", "Throat Pain Score": 4},
+    {"Timestamp": "2025-07-19 07:05", "Throat Pain Score": 6},
+    {"Timestamp": "2025-07-20 07:15", "Throat Pain Score": 2},
+    {"Timestamp": "2025-07-21 08:10", "Throat Pain Score": 2},
+    {"Timestamp": "2025-07-22 07:05", "Throat Pain Score": 3},
+    {"Timestamp": "2025-07-23 09:15", "Throat Pain Score": 1},
+    {"Timestamp": "2025-07-24 07:05", "Throat Pain Score": 1}
+  ]
+}

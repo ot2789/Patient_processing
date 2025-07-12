@@ -1,2 +1,30 @@
-# Patient_processing
-Extracting and processing patient data
+# Parsing patient data
+
+Using AI to extract data and Python to process it.
+
+These are the requirements:
+1. **Sample_patient_report.pdf** - medical report with unstructured data.
+2. **Prompt.txt** - prompt we provide to an LLM.
+3. **Python** - valid instalation with a plotting library.
+
+## Step 1
+- Load the file inside your favourite AI chatbot. Ex: ChatGPT
+- Paste the contents of Prompt.txt
+- Run the prompt and check the output.
+
+## Step 2
+- AI chatbot will reply with the JSON that structures the data nicely.
+- Copy that json to the place where you want to write your python script.
+- In case you run into problems you have (**patientdata.json**)
+
+## Step 3
+- Write python to load the data.
+- Create 2 lists that get the dates and scores from the tracking information.
+- Use matplotlib or any other equivalent to chart it.
+- In case you run into problems you have (**plot_patient_info.py**)
+
+## Conclusions
+- We can use AI to extract data from unstructured documents.
+- That data can easily be loaded and processed with automations.
+
+
