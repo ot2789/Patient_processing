@@ -23,8 +23,13 @@ These are the requirements:
 - Use matplotlib or any other equivalent to chart it.
 - In case you run into problems you have (**plot_patient_info.py**)
 
+## Step 4
+- Preview plot and draw conclusions.
+- In case you run into problems you have the saved plot as image (**Figure_1.png**)
+
 ## Conclusions
 - We can use AI to extract data from unstructured documents.
 - That data can easily be loaded and processed with automations.
-
-
+- Providing private data to public AI models poses privacy, ethical, and legal risks.
+- You can either use an internal hospital approved AI tool for this or anonymize the patient report for the public domain.
+- This example uses a synthetic patient report to demonstrate each step.
